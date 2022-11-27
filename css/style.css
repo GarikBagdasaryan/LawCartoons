@@ -1,0 +1,414 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+header{
+    height: 100vh;
+    background-image: url("../img/bg.jpg");
+    color: white;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.header-logo {
+    max-width: 50px;
+}
+.header-list {
+    display: flex;
+    column-gap: 15px;
+}
+.nav-link:hover{
+    color: #00F0FF;
+    border-bottom: #00F0FF solid 1px;
+}
+.nav-btn {
+    padding: 5px 15px;
+    border: #00F0FF solid;
+    border-radius: 10px;
+}
+.nav-btn:hover{
+    background-color: #00F0FF;
+}
+.header-hero {
+    text-align: center;
+    font-weight: 900;
+    font-size: 64px;
+    padding: 100px 0px;
+}
+.header-span{
+    color: #00F0FF;
+}
+
+.about{
+    padding: 50px 0px;
+}
+.about-cnt {
+}
+.about-upper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.about-upper-block {
+    background-color: #EAF1FF;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.upper-block-title {
+    color: #00F0FF;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.about-lower{
+    color: black;
+}
+
+.about-lower-first{
+    background-color: #FEEED6;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    height: 350px;
+    color: black;
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-lower-first-p{
+    display: block;
+    max-width: 300px;
+}
+
+
+.about-lower-first-p {
+}
+.about-span {
+    font-weight: 900;
+}
+
+.about-lower-second {
+    display: flex;
+    column-gap: 10px;
+}
+.lower-second-left {
+    background-color: #FFAA2C;
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 30px 0px 30px 30px;
+}
+.lower-second-right {
+    background-color: #72A0FE;
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 30px 0px 30px 30px;
+}
+.coachs{
+    padding: 50px 0px;
+}
+.coachs-cnt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coachs-block{
+    width: 300px;
+    background-color: #EAF1FF;
+    box-shadow: 5px 5px rgba(0,0,0,.2);
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    border-radius: 10px;
+}
+.coachs-title{
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.coachs-block-img{
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.coachs-block-title{
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.education{
+    background-color: #ECF3F5;
+    padding: 50px 0px;
+}
+
+.education-cnt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu-btn{
+    padding: 10px 30px;
+    background-color: #00F0FF;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.edu-block{
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.edu-block h3{
+    font-weight: 900;
+
+}
+
+.edu-price{
+    border-radius: 10px;
+    border: 2px solid #00F0FF;
+    padding: 5px 10px;
+}
+
+.edu-price span{
+    font-weight: 900;
+
+}
+
+.edu-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 20px;
+}
+
+.edu-list-item{
+    background: url("../img/check.svg") no-repeat;
+    background-position: 0px start;
+    background-size: 15px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #191919;
+    color: white;
+    padding: 50px 0px;
+}
+.footer-upper {
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 30px;
+}
+.footer-links {
+    max-width: 200px;
+}
+.footer-contacts {
+    max-width: 300px;
+}
+.footer-links-ico{
+    display: flex;
+    column-gap: 10px;
+}
+.footer-svg{
+    height: 50px;
+    width: 50px;
+    fill: #00F0FF;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list-item {
+}
+
+footer h3{
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+footer a:hover{
+    color: #00F0FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* фон */
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+/* При отображении модального окно */
+.modal:target {
+    opacity: 1; /* делаем окно видимым */
+	  pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 500px;
+      margin: 30px auto; /* отображение окна по центру */
+  }
+}
+/* Стили для блока с контентом окна */ 
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+@media (min-width: 768px) {
+  .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+}
+/* Стили заголовка окна */
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+}
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* Стили кнопки "х" ("Закрыть")  */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+/* Стили для закрывающей кнопки в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* Стили блока основного содержимого окна */
+.modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+
+}
+input{
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #00F0FF;
+    border-radius: 10px;
+}
+button:hover{
+    color: white;
+    font-weight: 900;
+}
